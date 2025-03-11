@@ -1,6 +1,6 @@
 
 #!/bin/sh
-wget https://cdn.app.multiple.cc/client/linux/x64/multipleforlinux.tar && tar -xvf multipleforlinux.tar
+wget https://mdeck-download.s3.us-east-1.amazonaws.com/client/linux/x64/multipleforlinux.tar && tar -xvf multipleforlinux.tar
 cd multipleforlinux
 chmod +x ~/multipleforlinux/multiple-cli && sudo chmod +x ~/multipleforlinux/multiple-node
 echo 'PATH=$PATH:/root/multipleforlinux' >> /etc/profile && source /etc/profile
